@@ -42,6 +42,10 @@ nav {
   .header{
     margin-bottom: 3rem;
   }
+
+  .header p{
+    max-width: 450px;
+  }
   
   .calculator {
     background-color: white;
@@ -101,3 +105,13 @@ nav {
     color: #0070f3;
   }
   
+
+  @media (max-width: 576px) {
+
+    .calculator {
+        width: 70vw;
+        height: auto;
+    }
+
+
+}
