@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <link rel="icon" type="image/x-icon" href="./assets/icon.png">
+ 
+  <title>Bunkscape - Attendance Calculator</title>
+  <meta name="Description" content="Find out the number of days you can bunk or the number of days you should attend to maintain your attendance.">
+  
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo"><img src="./assets/logo.png" alt="logo"></div>
+    <div>
+  </nav>
+  <div class="header">
+      <h1>Attendance Calculator</h1>
+    <p>
+      Find out the number of days you can bunk or the number 
+    </p>
+    <p>
+      of days you should attend to maintain your attendance.
+    </p>
+  </div>
+  
+  <div class="calculator">
+    <label for="totalHours">Total Hours:</label>
+    <input type="number" id="totalHours" min="1" required>
+    
+    <label for="attendedHours">Attended Hours:</label>
+    <input type="number" id="attendedHours" min="0" required>
+    
+    <label for="targetPercentage">Target Percentage: <span id="sliderValue">75</span>%</label>
+    <input type="range" id="targetPercentage" min="60" max="95" value="75" oninput="updateSliderValue()">
+    
+    <button onclick="calculateAttendance()">Calculate</button>
+    
+    <div id="result"></div>
+  </div>
+  <footer id="footer" class="footer">
+    <p>
+      View Source Code on
+      <a
+        class="footer-link"
+        target="_blank"
+        href="https://github.com/sayeedmunees/"
+        >GitHub &#8599;</a
+      >
+    </p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
