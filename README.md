@@ -22,5 +22,5 @@ You can either use the live web version or run the project locally:
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/sayeedmunees/bunkscape-a.git](https://github.com/sayeedmunees/bunkscape-attendance.git)
+   git clone https://github.com/sayeedmunees/bunkscape-a.git
    cd bunkscape
