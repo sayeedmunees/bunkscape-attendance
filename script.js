@@ -26,7 +26,7 @@ function calculateAttendance() {
   const targetPercentageDecimal = targetPercentage / 100;
   const attendancePercentage = Math.trunc(((100/totalHours)*attendedHours) * 10) / 10;
   const requiredAttendedHours = (attendedHours - (targetPercentageDecimal * totalHours)) / (targetPercentageDecimal -1) ;
-  const futureHoursToAttend = Math.round(requiredAttendedHours);
+  const futureHoursToAttend = Math.ceil(requiredAttendedHours);
   const bunkableHours = Math.floor((attendedHours*100)/(targetPercentage)-totalHours);
   let bunk = ``;
 
