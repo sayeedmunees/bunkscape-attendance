@@ -108,10 +108,14 @@ nav {
 
   @media (max-width: 576px) {
 
+    body{
+      height: fit-content;
+    }
+
     .calculator {
         width: 70vw;
         height: auto;
-        margin-bottom: 0.5vh;
+        margin-bottom: 1rem;
     }
 
     .header{
@@ -130,9 +134,6 @@ nav {
 
     .footer {
       height: fit-content;
-      bottom: -1vh;
-      z-index: -1;
-      margin-top: 2rem;
       margin-bottom: 2rem;
     }
 
