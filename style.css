@@ -113,5 +113,14 @@ nav {
         height: auto;
     }
 
+    .header p{
+      width: 85vw;
+    }
+
+    nav {
+      height: fit-content;
+      margin-bottom: 2rem;
+    }
+
 
 }
