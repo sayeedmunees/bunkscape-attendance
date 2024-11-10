@@ -88,8 +88,8 @@ nav {
   }
 
   .footer {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     gap: 4px;
     position: absolute;
     bottom: 0;
@@ -109,7 +109,7 @@ nav {
   @media (max-width: 576px) {
 
     body{
-      height: fit-content;
+      height: 110vh;
     }
 
     .calculator {
@@ -132,9 +132,8 @@ nav {
       margin-bottom: 0rem;
     }
 
-    .footer {
+    /* .footer {
       display: none;
-
-    }
+    } */
 
 }
