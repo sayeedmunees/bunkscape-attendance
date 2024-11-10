@@ -111,6 +111,11 @@ nav {
     .calculator {
         width: 70vw;
         height: auto;
+        margin-bottom: 0.5vh;
+    }
+
+    .header{
+      margin-bottom: 1rem ;
     }
 
     .header p{
@@ -119,8 +124,18 @@ nav {
 
     nav {
       height: fit-content;
+      margin-top: -2rem;
+      margin-bottom: 0rem;
+    }
+
+    .footer {
+      height: fit-content;
+      bottom: -1vh;
+      z-index: -1;
+      margin-top: 2rem;
       margin-bottom: 2rem;
     }
 
+  
 
 }
