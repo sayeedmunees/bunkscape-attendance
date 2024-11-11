@@ -31,7 +31,7 @@ function calculateAttendance() {
   let bunk = ``;
 
   if (bunkableHours > 0){
-    bunk = `<p>You may can bunk ${bunkableHours} upcoming hours without losing ${targetPercentage}% attendance</p>`;
+    bunk = `<p>You can bunk ${bunkableHours} upcoming hours without losing ${targetPercentage}% attendance</p>`;
   }
 
     let result = `<p>Current Attendance Percentage: ${attendancePercentage}%</p>`;
