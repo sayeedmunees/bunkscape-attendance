@@ -11,6 +11,8 @@ Check out the live version of the Bunkscape Attendance Calculator on the web:
 - **Attendance Requirement**: Tells you how many more classes you need to attend to meet the attendance requirement.
 - **User-Friendly Interface**: Simple and easy-to-use web interface for quick calculations.
 
+
+
 ## How to Use
 
 You can either use the live web version or run the project locally:
